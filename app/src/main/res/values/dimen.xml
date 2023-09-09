@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="button_height">@dimen/_50sdp</dimen>
+    <dimen name="button_height_small">@dimen/_30sdp</dimen>
+    <dimen name="edit_text_height">@dimen/_48sdp</dimen>
+    <dimen name="dialog_button_height">@dimen/_40sdp</dimen>
+    <dimen name="toolbar_height">@dimen/_40sdp</dimen>
+</resources>

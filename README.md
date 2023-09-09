@@ -66,7 +66,7 @@
   7. Imgur SetUp
      To use Imgur API's we have to follow below steps
 
-     1. Create an account by [licking here](https://imgur.com/signin?redirect=http%3A%2F%2Fapi.imgur.com%2Foauth2%2Faddclient)
+     1. Create an account by [clicking here](https://imgur.com/signin?redirect=http%3A%2F%2Fapi.imgur.com%2Foauth2%2Faddclient)
      2. Now register the app to get **Client ID** which is required to call API.
      3. In our Problem statement we have to display **TOP** images of the **WEEK** from the **Imgur gallery** in **reverse** chronological order.
      4. To use **Imgur gallery** we have https://api.imgur.com/3/gallery/{section}/{sort}/{window}/{page}?showViral=bool this API.

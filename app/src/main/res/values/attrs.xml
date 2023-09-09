@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CustomFont">
+        <attr name="font_name">
+            <enum name="bold" value="1" />
+            <enum name="medium" value="2" />
+            <enum name="regular" value="3" />
+        </attr>
+    </declare-styleable>
+
+</resources>
