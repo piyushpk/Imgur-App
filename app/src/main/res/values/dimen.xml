@@ -5,4 +5,7 @@
     <dimen name="edit_text_height">@dimen/_48sdp</dimen>
     <dimen name="dialog_button_height">@dimen/_40sdp</dimen>
     <dimen name="toolbar_height">@dimen/_40sdp</dimen>
+
+    <dimen name="toolbar_heading">20sp</dimen>
+
 </resources>

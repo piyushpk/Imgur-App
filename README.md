@@ -29,7 +29,7 @@
   
 
 # Solution
-  1. Use Case Daigram:
+  1. Use Case Diagram:
 
      For above problem statement our use case diagram would look like: [Click Here](https://drive.google.com/file/d/1SfMt0uwWZFiwZc9WN_sTBBgPksNPbdvB/view?usp=sharing)
 
@@ -40,7 +40,7 @@
      
   3. System Requirement
 
-      To develope any software the system should have good configuration, so here I'm using OS Windows 11 with 16 GB of RAM and 512 GB of SSD to develope and run the project.
+      To develop any software the system should have good configuration, so here I'm using OS Windows 11 with 16 GB of RAM and 512 GB of SSD to develop and run the project.
      
   4. IDE and Language
 
@@ -48,17 +48,17 @@
 
      Android Studio as IDE having version Android Studio Flamingo | 2022.2.1 Patch 1,
 
-     Kotlin as a programming language with MVVM design patern using LiveData and ViewBinding having minSDk version is 23 and targetSDK version is 33.
+     Kotlin as a programming language with MVVM design pattern using LiveData and ViewBinding having minSDk version is 23 and targetSDK version is 33.
      
 
   5. Libraries
-     To work efficently Libraries plays vaital role in development, so I'm using below third-party Libraries
+     To work efficiently Libraries plays vital role in development, so I'm using below third-party Libraries
      
-     1. androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.1 ==> To use MVVM's live cycle efficently
+     1. androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.1 ==> To use MVVM's live cycle efficiently
      2. androidx.lifecycle:lifecycle-viewmodel-compose:2.6.1 ==> To use MVVM's view model compose
      3. androidx.lifecycle:lifecycle-livedata-ktx:2.6.1 ==> To use LiveData
      4. com.squareup.retrofit2:retrofit:2.9.0 ==> To call API's
-     5. com.squareup.retrofit2:converter-gson:2.9.0 ==> To Parse API's return response smothly
+     5. com.squareup.retrofit2:converter-gson:2.9.0 ==> To Parse API's return response smoothly
      6. com.squareup.okhttp3:logging-interceptor:4.9.0 ==> To print API logs
      7. com.intuit.sdp:sdp-android:1.0.6 ==> To provide sizes to view
      8. com.squareup.picasso:picasso:2.71828 ==> To display Images
