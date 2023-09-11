@@ -3,6 +3,7 @@ package com.hspl.imgur_app.utils
 import android.util.Log
 import com.hspl.imgur_app.BuildConfig
 import com.hspl.imgur_app.`interface`.RetrofitInterface
+import okhttp3.Interceptor
 import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor
 import retrofit2.Retrofit
@@ -18,6 +19,7 @@ object RetrofitInstance {
 
         val client = if (BuildConfig.RETROFIT_LOG_INTERCEPTOR) {
             OkHttpClient.Builder()
+                .addInterceptor(getHeaderInterceptor())
                 .addInterceptor(loggingInterceptor)
                 .build()
         } else {
@@ -31,5 +33,14 @@ object RetrofitInstance {
             .client(client)
             .build()
             .create(RetrofitInterface::class.java)
+    }
+
+    private fun getHeaderInterceptor(): Interceptor {
+        return Interceptor { chain ->
+            val request = chain.request().newBuilder()
+                .header("Authorization", "Client-ID c795b8886cc3233")
+                .build()
+            chain.proceed(request)
+        }
     }
 }

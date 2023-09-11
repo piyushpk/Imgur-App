@@ -20,6 +20,7 @@
             android:orientation="vertical">
 
             <com.hspl.imgur_app.core.CustomTextView
+                android:id="@+id/txt_title"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/_10sdp"
@@ -36,7 +37,7 @@
                 android:background="@color/colorDivider" />
 
             <com.hspl.imgur_app.core.CustomTextView
-                android:id="@+id/txt_date"
+                android:id="@+id/txt_message"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/_25sdp"

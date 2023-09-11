@@ -11,6 +11,8 @@ import com.hspl.imgur_app.utils.AppUtils
 
 open class ParentActivity : AppCompatActivity() {
 
+    private lateinit var progressDialog: Dialog
+
     protected fun isInternetConnected(context: Context): Boolean {
         val connectivityManager =
             context.getSystemService(Context.CONNECTIVITY_SERVICE) as ConnectivityManager
@@ -37,11 +39,21 @@ open class ParentActivity : AppCompatActivity() {
         return false
     }
 
+    // To display toast message
     fun showToast(context: Context?, msg: String?) {
         Toast.makeText(context, msg, Toast.LENGTH_LONG).show()
     }
 
-    fun showToastShort(context: Context?, msg: String?) {
-        Toast.makeText(context, msg, Toast.LENGTH_SHORT).show()
+    // To display Loading dialog
+    fun showLoadingDialog(context: Context) {
+        progressDialog = AppUtils.progressDialog(context)
+        progressDialog.show()
+    }
+
+    // To dismiss Loading dialog
+    fun dismissLoadingDialog() {
+        if (progressDialog.isShowing) {
+            progressDialog.dismiss()
+        }
     }
 }

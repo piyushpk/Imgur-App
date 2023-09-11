@@ -26,8 +26,6 @@
 
   Search results need to be sorted in reverse chronological order.
 
-  
-
 # Solution
   1. Use Case Diagram:
 
@@ -49,7 +47,6 @@
      Android Studio as IDE having version Android Studio Flamingo | 2022.2.1 Patch 1,
 
      Kotlin as a programming language with MVVM design pattern using LiveData and ViewBinding having minSDk version is 23 and targetSDK version is 33.
-     
 
   5. Libraries
      To work efficiently Libraries plays vital role in development, so I'm using below third-party Libraries
@@ -62,8 +59,8 @@
      6. com.squareup.okhttp3:logging-interceptor:4.9.0 ==> To print API logs
      7. com.intuit.sdp:sdp-android:1.0.6 ==> To provide sizes to view
      8. com.squareup.picasso:picasso:2.71828 ==> To display Images
-    
-  7. Imgur SetUp
+
+  6. Imgur SetUp
      To use Imgur API's we have to follow below steps
 
      1. Create an account by [clicking here](https://imgur.com/signin?redirect=http%3A%2F%2Fapi.imgur.com%2Foauth2%2Faddclient)
@@ -72,8 +69,6 @@
      4. To use **Imgur gallery** we have https://api.imgur.com/3/gallery/{section}/{sort}/{window}/{page}?showViral=bool this API.
      5. After applying all other condition our API URL will look like https://api.imgur.com/3/gallery/top/time/week/0.json this.
      6. Setup is completed now we are ready to start the coding.
-    
-  8. To Be Continued...
 
      
     

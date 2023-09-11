@@ -1,16 +1,23 @@
 <resources>
     <string name="app_name">Imgur App</string>
     <string name="app_logo">App Logo</string>
-    <string name="exit">Exit</string>
+
     <string name="search">Search\n</string>
     <string name="search_image_here">Search Image Here</string>
+
     <string name="list_view">List View</string>
     <string name="grid_view">Grid View</string>
+
     <string name="image">Image</string>
     <string name="title">Title</string>
     <string name="date">Date</string>
     <string name="total_count">Total Count</string>
+
+    <string name="exit">Exit</string>
+    <string name="internet">Internet</string>
     <string name="do_you_really_want_to_n_exit_form_app">Do you really want to\n exit form app?</string>
-    <string name="no">NO\n</string>
+    <string name="check_your_internet_connection">Please check your internet connection and restart app again</string>
+    <string name="no">NO</string>
     <string name="yes">YES</string>
+
 </resources>

@@ -19,13 +19,16 @@
         android:orientation="horizontal">
 
         <com.hspl.imgur_app.core.CustomEditText
+            android:id="@+id/edt_search"
             android:layout_width="0dp"
             android:layout_height="@dimen/edit_text_height"
             android:layout_weight="1"
             android:background="@drawable/rounded_edit_text"
             android:hint="@string/search_image_here"
+            android:imeOptions="actionDone"
             android:inputType="text"
             android:padding="@dimen/_10sdp"
+            android:selectAllOnFocus="true"
             android:textColor="@color/colorBlack"
             android:textColorHint="@color/colorEditTextHint"
             app:font_name="regular" />
